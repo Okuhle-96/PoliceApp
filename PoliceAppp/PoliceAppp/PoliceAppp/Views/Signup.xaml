@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoliceAppp.Views.Signup">
+    <StackLayout BackgroundColor="Navy">
+        <StackLayout>
+            <Image Source="splash.gif"></Image>
+        </StackLayout>
+        <StackLayout>
+            <Entry Placeholder="Name" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Surname" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Email" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Cellphone" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Password" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Entry Placeholder="Confirm Password" PlaceholderColor="White"  HorizontalOptions="Center" WidthRequest="200" HorizontalTextAlignment="Center"></Entry>
+            <Button x:Name="OffToLogin" Text="Sign Up" WidthRequest="250" BackgroundColor="Goldenrod" HorizontalOptions="Center" TextColor="White" CornerRadius="20" Clicked="OffToLogin_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoliceAppp.Views.ReportMissingPersons">
+    <StackLayout BackgroundColor="Navy">
+        <ScrollView Orientation="Vertical">
+            <StackLayout BackgroundColor="Navy">
+
+                <StackLayout>
+                    <ScrollView Orientation="Vertical">
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m8.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi8.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView>
+                        <FlexLayout>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="m1.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Darren Roodt" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information" WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="140" Margin="10" CornerRadius="20">
+                                <FlexLayout Direction="Column"  AlignContent="Center">
+
+
+
+                                    <Image Source="mi3.jpg" WidthRequest="100" HorizontalOptions="Center" Margin="20, 0, 0, 0" HeightRequest="150"></Image>
+
+
+                                    <Label Text="Gift Mahlangu" TextColor="Navy" HorizontalOptions="Center" HorizontalTextAlignment="Center"></Label>
+
+                                    <Button Text="Give Information"  WidthRequest="140" BackgroundColor="Goldenrod" TextColor="White"></Button>
+
+
+                                </FlexLayout>
+                            </Frame>
+                        </FlexLayout>
+
+                    </ScrollView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout BackgroundColor="Navy" Margin="0, -2, 0, 0">
+            <Button Text="Report Missing Person" WidthRequest="300" x:Name="Report" HorizontalOptions="Center" BackgroundColor="Navy" TextColor="White" BorderColor="White" BorderWidth="3" Clicked="Report_Clicked"  ></Button>
+            <Button Text="See More Missing Persons" WidthRequest="300" x:Name="MoreMissing" HorizontalOptions="Center" BackgroundColor="Goldenrod"  Clicked="MoreMissing_Clicked" ></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

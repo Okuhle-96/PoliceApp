@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoliceAppp.Views.TipOff">
+    <StackLayout BackgroundColor="Navy">
+        <StackLayout >
+            <Label Text="Pick A Category" TextColor="White" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+        <StackLayout>
+            <ScrollView>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Frame Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="1" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Money Laundering" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08000 66639" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="2" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Human Trafficking" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08008 48626" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                   
+                    <Frame BackgroundColor="White" Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="3" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Bribery" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08000 274237" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="4" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Theft" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08000 85338" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="5" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Cyber Bullying" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08000 29238" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="20, -40, 20, 20" CornerRadius="10" Padding="20" Grid.Row="6" >
+                        <StackLayout>
+                            <Frame BackgroundColor="White" Margin="20, 0, 20, 20" Padding="20" Grid.Row="2">
+                                <StackLayout>
+                                    <Label Text="Drugs" TextColor="Blue" HorizontalOptions="Center"></Label>
+                                    <Label Text="08000 37847" TextColor="Blue" FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+                    </Frame>
+                  
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="Verify" BackgroundColor="Goldenrod" Text="Report Case" WidthRequest="300" HorizontalOptions="Center" Clicked="Verify_Clicked"  CornerRadius="20" ></Button>
+            <Button x:Name="Home" BackgroundColor="Goldenrod" Text="Home" WidthRequest="300" HorizontalOptions="Center" Margin="0, 0, 0, 10" Clicked="Home_Clicked" CornerRadius="20" ></Button>
+        </StackLayout>
+   
+    </StackLayout>
+</ContentPage>

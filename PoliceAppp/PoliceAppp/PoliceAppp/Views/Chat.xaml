@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoliceAppp.Views.Chat">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Margin="5, 20, 100, 10">
+                    <Frame BackgroundColor="Goldenrod" WidthRequest="200" HeightRequest="50" CornerRadius="20">
+                        <Label WidthRequest="100"></Label>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Margin="100, 10, 5, 10">
+                    <Frame BackgroundColor="Navy" HeightRequest="50" CornerRadius="20"></Frame>
+                </StackLayout>
+                <StackLayout Margin="5, 20, 100, 10">
+                    <Frame BackgroundColor="Goldenrod" WidthRequest="200" HeightRequest="50" CornerRadius="20">
+                        <Label WidthRequest="100"></Label>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Margin="100, 10, 5, 10">
+                    <Frame BackgroundColor="Navy" HeightRequest="50" CornerRadius="20"></Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout VerticalOptions="End">
+
+            <Entry WidthRequest="50" Placeholder="Type Your Message" PlaceholderColor="Navy" Margin="0, 20, 150, 0" VerticalOptions="End"></Entry>
+            <Button Text="Send" TextColor="White"  CornerRadius="100" WidthRequest="100" HorizontalOptions="End" BackgroundColor="Navy" Margin="0, -60, 10, 0"></Button>
+          
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

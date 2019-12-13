@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoliceAppp.Views.LandingPage">
+    <StackLayout>
+        <StackLayout>
+            <Image Source="optional.jpg" Margin="0, -20, 0, 0"/>
+        </StackLayout>
+        <StackLayout Margin="0, -90, 0, 0" >
+            <ScrollView>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                        <RowDefinition Height="170"></RowDefinition>
+                    
+
+                    </Grid.RowDefinitions>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, -5, 20, 20" CornerRadius="20" Padding="20" Grid.Row="1" >
+                        <StackLayout>
+                            <Image Source="alert.png" WidthRequest="50" HorizontalOptions="Start" >
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Tip Off" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button x:Name="Tip"  Text="Submit Tip Off" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 20, 0, 0" Clicked="Tip_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, 0, 20, 20" CornerRadius="20" Padding="20" Grid.Row="2" >
+                        <StackLayout>
+                            <Image Source="chat.png" WidthRequest="50" HorizontalOptions="Start" >
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Chat With An Officer" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button x:Name="ChatPage" Text="Chat With a Police Officer" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 15, 0, 0" Clicked="ChatPage_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, 0, 20, 20" CornerRadius="20" Padding="20" Grid.Row="3" >
+                        <StackLayout>
+                            <Image Source="miss.png" WidthRequest="50" HorizontalOptions="Start" >
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Missing Persons" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button Text="Report Missing or Discovered Persons" x:Name="Miss" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 15, 0, 0" Clicked="Miss_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, 0, 20, 20" CornerRadius="20" Padding="20" Grid.Row="4" >
+                        <StackLayout>
+                            <Image Source="flash.png" WidthRequest="50" HorizontalOptions="Start" >
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Report Crime" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button Text="Open A Case" x:Name="Case" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 15, 0, 0" Clicked="Case_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, 0, 20, 20" CornerRadius="20" Padding="20" Grid.Row="5" >
+                        <StackLayout>
+                            <Image Source="saps.jpg" WidthRequest="50" HorizontalOptions="Start" >
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Police Stations" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button Text="Locate Nearest Police Station" x:Name="Police" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 15, 0, 0" Clicked="Police_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Goldenrod" Margin="20, 0, 20, 20" CornerRadius="20" Padding="20" Grid.Row="6" >
+                        <StackLayout>
+                            <Image Source="car.png" WidthRequest="50" HorizontalOptions="Start">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TipOffCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                            <Label Text="Stolen Car" HorizontalOptions="End" FontAttributes="Bold" FontSize="17" TextColor="White" Margin="0, -40, 0, 0"></Label>
+                            <Button Text="Report Your Stolen Car" x:Name="Car" TextColor="White" BackgroundColor="Navy" CornerRadius="10" Margin="0, 15, 0, 0" Clicked="Car_Clicked"></Button>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="in danger" x:Name="Danger" BackgroundColor="Navy" WidthRequest="205.5" CornerRadius="0" HorizontalOptions="Start"  TextColor="White" Clicked="Danger_Clicked"></Button>
+            <Button Text="Connect With 10111" x:Name="Call" BackgroundColor="White" WidthRequest="208" BorderColor="Navy" BorderWidth="5" CornerRadius="0" Margin="0, -54, -2, 0" HorizontalOptions="End" TextColor="Navy" Clicked="Call_Clicked"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
